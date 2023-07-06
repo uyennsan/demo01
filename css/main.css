@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+.chuadung
+{width: 100%;
+height: 1200px;
+	background-color: orange;}
+
+.container
+{width: 100%;
+height: 1200px;
+
+}
+.menu{
+	width: 100%;
+	height: 80px;	
+	position: relative;
+	margin: 0px;
+	background-color:orange;}
+.menu_inside
+{
+	;
+	height: 80px;
+	float: left;}
+
+.menu_inside ul
+{ list-style: none; position: absolute; padding: 0px 10px;
+	margin: 1px;}
+.menu_inside ul li
+{
+	float: left;
+	margin: 5px 0px;
+	padding: 0px 50px;
+}
+.menu_inside ul li:hover
+{
+	float: left;
+	background-color:antiquewhite;
+	border-radius: 50px;
+}
+
+.menu_inside ul li a
+{
+	text-decoration: none;
+}
+
+.menu_inside ul li ul{
+	position: absolute; background-color:white; left: -2px; top: 78px; visibility: hidden;
+	border: solid #000000 1px; 
+}
+
+.menu_inside ul li:hover ul{ background-color:aliceblue;
+	visibility: visible}
+.menu_inside ul li ul li{
+	width: 120px;}
+
+.box{width: 30%;
+	height: 650px;
+	float: left;
+	justify-content: center;
+	margin: 70px 25px;
+	box-sizing: border-box;
+	border-radius: 20px;
+cursor: pointer;
+transition: .4s;
+	background: white;
+	
+	
+}
+
+
+
+
+.box:hover{
+	box-shadow: 0px 5px 15px -3px black;
+	transform:translateY(10px)}
+.img{
+	width: 400px;
+	height: 400px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;}
+.image-center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 434px;
+	box-sizing: border-box;}
+.spotlight{
+	width:100%;
+	height: 600px;
+	background-color: orange;
+    margin: 0; padding: 0;}
+.footer{
+	width:100%;
+	height: 200px;
+	background-color:white;
+	align-content: center;
+	text-align: center;
+	cursor: pointer;
+}
+.insidespotlight{
+    width:260px;
+	height:140px;
+	float: left;
+	justify-content: center;
+	margin:20px 41.6px ;
+    border-radius: 10px;
+	background-color:aliceblue;
+	text-align: center;
+	padding: 16px;
+	box-shadow: 0px 5px 15px black;
+	cursor: pointer;}
+button{
+	text-align:center;
+	font-size: 24px;
+	color: aliceblue;
+	width: 100%;
+	height: 60px;
+	padding:10px;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	margin-top: 5px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: black;}
